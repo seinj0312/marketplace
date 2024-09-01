@@ -43,8 +43,8 @@ importers:
         specifier: ^2.4.4
         version: 2.4.4
       '@types/react':
-        specifier: 18.2.0
-        version: 18.2.0
+        specifier: 18.3.5
+        version: 18.3.5
       '@types/react-dom':
         specifier: 18.2.0
         version: 18.2.0
@@ -147,11 +147,8 @@ packages:
   '@types/react-redux@7.1.33':
     resolution: {integrity: sha512-NF8m5AjWCkert+fosDsN3hAlHzpjSiXlVy9EgQEmLoBhaNXbmyeGs/aj5dQzKuF+/q+S7JQagorGDW8pJ28Hmg==}
 
-  '@types/react@18.2.0':
-    resolution: {integrity: sha512-0FLj93y5USLHdnhIhABk83rm8XEGA7kH3cr+YUlvxoUGp1xNt/DINUMvqPxLyOQMzLmZe8i4RTHbvb8MC7NmrA==}
-
-  '@types/scheduler@0.16.8':
-    resolution: {integrity: sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==}
+  '@types/react@18.3.5':
+    resolution: {integrity: sha512-WeqMfGJLGuLCqHGYRGHxnKrXcTitc6L/nBUWfWPcTarG3t9PsquqUMuVeXZeca+mglY4Vo5GZjCi0A3Or2lnxA==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -1089,29 +1086,26 @@ snapshots:
 
   '@types/hoist-non-react-statics@3.3.5':
     dependencies:
-      '@types/react': 18.2.0
+      '@types/react': 18.3.5
       hoist-non-react-statics: 3.3.2
 
   '@types/prop-types@15.7.8': {}
 
   '@types/react-dom@18.2.0':
     dependencies:
-      '@types/react': 18.2.0
+      '@types/react': 18.3.5
 
   '@types/react-redux@7.1.33':
     dependencies:
       '@types/hoist-non-react-statics': 3.3.5
-      '@types/react': 18.2.0
+      '@types/react': 18.3.5
       hoist-non-react-statics: 3.3.2
       redux: 4.2.1
 
-  '@types/react@18.2.0':
+  '@types/react@18.3.5':
     dependencies:
       '@types/prop-types': 15.7.8
-      '@types/scheduler': 0.16.8
       csstype: 3.1.2
-
-  '@types/scheduler@0.16.8': {}
 
   '@types/semver@7.5.8': {}
 
